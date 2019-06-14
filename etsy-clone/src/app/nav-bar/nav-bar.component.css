@@ -1,8 +1,24 @@
+#nav {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #dddbdb;
+  color: #595959;
+}
 
+.bg-light {
+    background-color: white!important;
+}
+
+.browse {
+  color: #595959;
+  margin-left: 6px;
+  vertical-align: middle;
+  font-size: 16px;
+}
 
 #etsyLogo {
   float: left;
-  height: 35px;
+  height: 36px;
   margin: 0;
   position: absolute;
 
@@ -11,4 +27,18 @@
 #hamburger-icon {
   height: 20px;
   margin-left: 80px;
+  color: #595959;
+}
+
+#sell-on-etsy {
+  color: black;
+  font-size: 14px;
+}
+
+a: hover {
+  text-decoration: underline;
+}
+
+.navbar-brand .browse:hover {
+  text-decoration: underline;
 }
