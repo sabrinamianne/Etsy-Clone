@@ -1,8 +1,11 @@
 #nav {
   border-bottom-style: solid;
-  border-width: thin;
+  border-width: 2.2px;
   border-color: #dddbdb;
   color: #595959;
+  padding-bottom: 4%;
+  position: relative;
+
 }
 
 .bg-light {
@@ -18,21 +21,46 @@
 
 #etsyLogo {
   float: left;
-  height: 36px;
+  height: 46px;
   margin: 0;
   position: absolute;
-
-}
-
-#hamburger-icon {
-  height: 20px;
-  margin-left: 80px;
-  color: #595959;
+  padding-left: 8%;
 }
 
 #sell-on-etsy {
   color: black;
+  font-size: 15px;
+  padding-top: 32px;
+  position: absolute;
+  padding-left: 43%;
+  font-weight: lighter;
+}
+
+#register {
+  color: black;
+  font-size: 15px;
+  padding-top: 32px;
+  padding-left: 50%;
+  position: absolute;
+  font-weight: lighter;
+}
+
+.form-inline {
+  padding-left: 14%;
+  padding-top: 39px;
+  position: absolute;
+
+}
+
+#sign-in {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 18px;
   font-size: 14px;
+}
+
+#sign-in:hover {
+  background-color: black;
 }
 
 a: hover {
@@ -42,3 +70,9 @@ a: hover {
 .navbar-brand .browse:hover {
   text-decoration: underline;
 }
+
+/* #hamburger-icon {
+  height: 20px;
+  margin-left: 80px;
+  color: #595959;
+} */
