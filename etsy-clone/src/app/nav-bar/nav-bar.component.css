@@ -1,11 +1,10 @@
 #nav {
-  border-bottom-style: solid;
-  border-width: 2.2px;
+  /* border-bottom-style: solid;
+  border-width: 2.2px; */
   border-color: #dddbdb;
   color: #595959;
-  padding-bottom: 4%;
+  padding-bottom: 0.5em;
   position: relative;
-
 }
 
 .bg-light {
@@ -17,13 +16,14 @@
   margin-left: 6px;
   vertical-align: middle;
   font-size: 16px;
+  position: fixed;
 }
 
 #etsyLogo {
   float: left;
   height: 46px;
   margin: 0;
-  position: absolute;
+  position: fixed;
   padding-left: 8%;
 }
 
@@ -31,8 +31,8 @@
   color: black;
   font-size: 15px;
   padding-top: 32px;
-  position: absolute;
-  padding-left: 43%;
+  position: fixed;
+  padding-left: 67.5%;
   font-weight: lighter;
 }
 
@@ -40,8 +40,8 @@
   color: black;
   font-size: 15px;
   padding-top: 32px;
-  padding-left: 50%;
-  position: absolute;
+  padding-left: 73.5%;
+  position: fixed;
   font-weight: lighter;
 }
 
@@ -49,12 +49,11 @@
   padding-left: 14%;
   padding-top: 39px;
   position: absolute;
-
 }
 
 #sign-in {
   position: absolute;
-  margin-left: 55%;
+  margin-left: 78%;
   margin-top: 18px;
   font-size: 14px;
 }
@@ -67,9 +66,39 @@ a: hover {
   text-decoration: underline;
 }
 
+.icon-discover {
+  position: fixed;
+  margin-left: 84%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.icon-cart {
+  margin-right: 7.8%;
+  margin-top: 37px;
+  font-size: 12px;
+  position: relative;
+}
+
 .navbar-brand .browse:hover {
   text-decoration: underline;
 }
+
+#discover {
+  padding-top: 32px;
+  padding-left: 73.5%;
+  position: fixed;
+}
+
+#cart {
+  padding-top: 32px;
+  padding-left: 73.5%;
+  position: fixed;
+}
+
+
+
+
 
 /* #hamburger-icon {
   height: 20px;
