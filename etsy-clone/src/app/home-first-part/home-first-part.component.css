@@ -1,0 +1,16 @@
+.box-model {
+  border: solid #fdd95c;
+  background-color: #fdd95c;
+  margin-left: 50px;
+  width: 60em;
+  height: 25em;
+  border-top: 0;
+  border-right: 0;
+}
+
+#box-first {
+  height: 25em;
+  float: right;
+  margin-top:0;
+
+}
