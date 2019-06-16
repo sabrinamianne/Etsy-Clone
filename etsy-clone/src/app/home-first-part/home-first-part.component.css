@@ -1,16 +1,43 @@
-.box-model {
+#box-model {
   border: solid #fdd95c;
   background-color: #fdd95c;
-  margin-left: 50px;
-  width: 60em;
-  height: 25em;
+  margin-left: 10px;
+  width: 35em;
+  height: 20em;
   border-top: 0;
   border-right: 0;
+  padding-right: 0;
 }
 
 #box-first {
-  height: 25em;
+  height: 20em;
   float: right;
   margin-top:0;
+}
 
+#box-second {
+  height: 20.4em;
+}
+
+#line-third {
+  height: 7em;
+}
+
+#text {
+  font-family: "Optima", sans-serif;
+  font-size: 28px;
+  line-height: 15px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#small-line {
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: 9em;
 }

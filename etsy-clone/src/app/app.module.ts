@@ -8,6 +8,7 @@ import { NavBar2Component } from './nav-bar-2/nav-bar-2.component';
 import { HomeFirstPartComponent } from './home-first-part/home-first-part.component';
 import { HomeSecondPartComponent } from './home-second-part/home-second-part.component';
 import { HomeThirdPartComponent } from './home-third-part/home-third-part.component';
+import { StarsComponent } from './stars/stars.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeThirdPartComponent } from './home-third-part/home-third-part.compon
     NavBar2Component,
     HomeFirstPartComponent,
     HomeSecondPartComponent,
-    HomeThirdPartComponent
+    HomeThirdPartComponent,
+    StarsComponent
   ],
   imports: [
     BrowserModule

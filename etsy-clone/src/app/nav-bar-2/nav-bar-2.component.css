@@ -55,8 +55,9 @@
   border: 1px;
   height: 10em;
   width: 42em;
-  margin-left: 20%;
+  margin-left: 1em;
   margin-top: 10px;
+  text-align: center;
 }
 
 h1 {

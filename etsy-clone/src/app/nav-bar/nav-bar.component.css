@@ -10,19 +10,19 @@
     background-color: white!important;
 }
 
-.browse {
+/* .browse {
   color: #595959;
   margin-left: 6px;
   vertical-align: middle;
   font-size: 16px;
   position: fixed;
-}
+} */
 
 #etsyLogo {
   float: left;
   height: 46px;
   margin: 0;
-  position: fixed;
+  position: absolute;
   padding-left: 8%;
 }
 
@@ -30,17 +30,18 @@
   color: black;
   font-size: 15px;
   padding-top: 32px;
-  position: fixed;
+  position: absolute;
   padding-left: 67.5%;
   font-weight: lighter;
 }
+
 
 #register {
   color: black;
   font-size: 15px;
   padding-top: 32px;
   padding-left: 73.5%;
-  position: fixed;
+  position:absolute;
   font-weight: lighter;
 }
 
@@ -61,14 +62,10 @@
   background-color: black;
 }
 
-a: hover {
-  text-decoration: underline;
-}
-
 .icon-discover {
-  position: fixed;
+  position: absolute;
   margin-left: 84%;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 12px;
 }
 
@@ -79,14 +76,10 @@ a: hover {
   position: relative;
 }
 
-.navbar-brand .browse:hover {
-  text-decoration: underline;
-}
-
 #discover {
   padding-top: 32px;
   padding-left: 73.5%;
-  position: fixed;
+  position: relative;
 }
 
 #cart {
@@ -94,13 +87,3 @@ a: hover {
   padding-left: 73.5%;
   position: fixed;
 }
-
-
-
-
-
-/* #hamburger-icon {
-  height: 20px;
-  margin-left: 80px;
-  color: #595959;
-} */
