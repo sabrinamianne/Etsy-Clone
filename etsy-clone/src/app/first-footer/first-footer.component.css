@@ -1,0 +1,71 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.box-model {
+  width: 450px;
+}
+
+#title-1 {
+ padding-left: 16%;
+}
+
+#top {
+  text-align: center;
+  margin-left: 30%;
+  width: 90%;
+}
+
+#col-1 {
+  padding-left: 18%;
+}
+
+#col-2 {
+  padding-left: 23%;
+}
+
+#col-3 {
+  padding-left: 29%;
+}
+
+#profil-1 {
+  border-radius: 50%;
+}
+
+#line-1 {
+  margin-left:19%;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 2px;
+}
+
+.line-2 !important {
+  color: green;
+}
+
+
+#bold {
+  font-weight: bold;
+}
+
+#profil-2 {
+  border-radius: 50%;
+}
+
+#profil-3 {
+  border-radius: 50%;
+}
+
+#link {
+  color: black;
+  font-weight: lighter;
+  padding-left: 10%;
+}
+
+.stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

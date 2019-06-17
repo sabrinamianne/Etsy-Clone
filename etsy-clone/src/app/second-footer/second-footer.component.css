@@ -1,0 +1,48 @@
+#etsyLogo {
+  padding-left: 8em;
+}
+
+#footer {
+ width: 100%;
+ text-align: center;
+ border-top-style: solid ;
+ border-width: 0.5px;
+ border-color: #dddbdb;
+ background-color: white !important;
+ position: relative;
+ padding: 0;
+}
+
+.nav-link {
+  margin-top: 20px;
+}
+
+#first-line {
+  color: black;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+#second-line {
+  font-weight: lighter;
+  font-size: 12px;
+  padding-left: 57em;
+}
+
+#link1 {
+  font-size: 12px;
+  color: black;
+  font-weight: lighter;
+}
+
+#link2 {
+  font-weight: lighter;
+  font-size: 12px;
+  color: black;
+}
+
+#link3 {
+  font-weight: lighter;
+  color: black;
+  font-size: 12px;
+}

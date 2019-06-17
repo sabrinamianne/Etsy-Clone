@@ -9,6 +9,9 @@ import { HomeFirstPartComponent } from './home-first-part/home-first-part.compon
 import { HomeSecondPartComponent } from './home-second-part/home-second-part.component';
 import { HomeThirdPartComponent } from './home-third-part/home-third-part.component';
 import { StarsComponent } from './stars/stars.component';
+import { FirstFooterComponent } from './first-footer/first-footer.component';
+import { SecondFooterComponent } from './second-footer/second-footer.component';
+import { FooterImgComponent } from './first-footer/footer-img/footer-img.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { StarsComponent } from './stars/stars.component';
     HomeFirstPartComponent,
     HomeSecondPartComponent,
     HomeThirdPartComponent,
-    StarsComponent
+    StarsComponent,
+    FirstFooterComponent,
+    SecondFooterComponent,
+    FooterImgComponent
   ],
   imports: [
     BrowserModule
