@@ -1,14 +1,20 @@
-#title-second-part {
+#title-second-part-1 {
   text-align: center;
+}
+
+#title-second-part-2 {
+padding-left: 16%;
 }
 
 img {
   height: 130px;
-  width: 160px;
+  width: 165px;
+
 }
 
 .container {
-  margin-left: 9em;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 h4 {
@@ -32,4 +38,9 @@ p {
 
 #nb {
   font-size: 11px;
+}
+
+#small-title {
+  font-size: 14px;
+  font-weight: lighter;
 }

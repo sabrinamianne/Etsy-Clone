@@ -3,6 +3,8 @@
   color: #595959;
   padding-bottom: 0.5em;
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
 
 }
 
@@ -64,26 +66,18 @@
 
 .icon-discover {
   position: absolute;
-  margin-left: 84%;
+  margin-left: 82.5%;
   margin-top: 15px;
-  font-size: 12px;
 }
 
 .icon-cart {
-  margin-right: 7.8%;
-  margin-top: 37px;
-  font-size: 12px;
+  margin-right: 9.9%;
+  margin-top: 29px;
   position: relative;
 }
 
-#discover {
-  padding-top: 32px;
+#icone-links {
+  padding-top: 25px;
   padding-left: 73.5%;
-  position: relative;
-}
-
-#cart {
-  padding-top: 32px;
-  padding-left: 73.5%;
-  position: fixed;
+  position: absolute;
 }

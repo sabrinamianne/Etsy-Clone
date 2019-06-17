@@ -1,5 +1,5 @@
 #link1 {
-  margin-left: 8em;
+  margin-left: 10em;
   color: black;
   font-weight: lighter;
   font-size: 4;
@@ -71,4 +71,6 @@ h1 {
   background-color: white !important;
   padding-bottom: 0;
   position: relative;
+  padding-left: 0;
+  padding-right:0;
 }

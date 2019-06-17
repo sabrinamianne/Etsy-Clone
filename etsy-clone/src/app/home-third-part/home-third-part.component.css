@@ -1,0 +1,46 @@
+#title-second-part-1 {
+  padding-left: 16%;
+}
+
+#title-second-part-2 {
+padding-left: 16%;
+}
+
+img {
+  height: 130px;
+  width: 165px;
+
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 1px;
+  margin-bottom: 9px;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+#price {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#nb {
+  font-size: 11px;
+}
+
+#small-title {
+  font-size: 14px;
+  font-weight: lighter;
+}
