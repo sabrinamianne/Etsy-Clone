@@ -1,3 +1,34 @@
+@media all and (max-width: 1370px)
+{
+  .form-inline
+  {
+    display: none;
+  }
+
+  #sell-on-etsy {
+    padding-left: 30% !important;
+  }
+
+  #register {
+    padding-left: 50% !important;
+  }
+
+  #sign-in {
+    margin-left: 63% !important;
+  }
+
+  .icon-discover {
+    margin-left: 77% !important;
+    z-index: 1;
+
+  }
+
+  .icon-cart {
+    margin-left: 91%;
+
+  }
+}
+
 #nav {
   border-color: #dddbdb;
   color: #595959;
@@ -55,7 +86,7 @@
 
 #sign-in {
   position: absolute;
-  margin-left: 78%;
+  margin-left: 77.5%;
   margin-top: 18px;
   font-size: 14px;
 }
@@ -71,7 +102,7 @@
 }
 
 .icon-cart {
-  margin-right: 9.9%;
+  margin-right: 9.2%;
   margin-top: 29px;
   position: relative;
 }
