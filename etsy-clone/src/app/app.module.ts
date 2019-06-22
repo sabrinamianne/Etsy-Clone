@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavBar2Component } from './nav-bar-2/nav-bar-2.component';
@@ -12,7 +13,17 @@ import { StarsComponent } from './stars/stars.component';
 import { FirstFooterComponent } from './first-footer/first-footer.component';
 import { SecondFooterComponent } from './second-footer/second-footer.component';
 import { FooterImgComponent } from './first-footer/footer-img/footer-img.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -28,7 +39,11 @@ import { FooterImgComponent } from './first-footer/footer-img/footer-img.compone
     FooterImgComponent
   ],
   imports: [
-    BrowserModule
+   BrowserModule,
+   FormsModule,
+   HttpModule,
+   AngularFireModule.initializeApp(firebaseConfig),
+   AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
