@@ -5,7 +5,7 @@
 
 <div class="container">
   <div class="row">
-    <div *ngFor="let product of products" (click)="goToDetailPage(product)" class="panel panel-default">
+    <div *ngFor="let product of products | async" (click)="goToDetailPage(product)" class="panel panel-default">
       <img  src={{product.image}}  alt="picture"><br>
       <h4>{{product.title}}</h4>
       <p>{{product.company}}</p>

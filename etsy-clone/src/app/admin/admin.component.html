@@ -2,7 +2,59 @@
 <app-nav-bar-2></app-nav-bar-2>
 <hr>
 <h1>ADMIN</h1>
+<hr>
 <div class="container">
-  <a routerLink="marketplace">Marketplace</a>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add New Product to Inventory</h3><br>
+    </div>
+    <div class="panel-body">
+        <div>
+          <label>ProductTitle:</label>
+          <br>
+          <input #newTitle>
+        </div>
+
+        <div>
+          <label>Product Company:</label>
+          <br>
+          <input #newCompany>
+        </div>
+
+        <div>
+          <label>Product Description:</label>
+          <br>
+          <textarea #newDescription></textarea>
+        </div>
+
+          <div>
+            <label>Product Image:</label>
+            <br>
+            <input #newImage>
+          </div>
+
+          <div>
+            <label>Product Url:</label>
+            <br>
+            <input #newUrl>
+          </div>
+
+          <div>
+            <label>Product price:</label>
+            <br>
+            <input #newPrice>
+          </div>
+
+          <div>
+            <label>Product reviews:</label>
+            <br>
+            <input #newReview>
+          </div>
+        <!-- <button (click)="submitForm(newTitle.value, newCompany.value, newDescription.value, newImage.value, newUrl.value, newPrice.value; newTitle.value=''; newCompany.value=''; newDescription.value='';newImage.value=''; newUrl.value=''; newPrice.value=''">Add</button> -->
+    </div>
+  </div>
+</div>
+<div class="container">
+  <a routerLink="marketplace" style="color: black;">Our Products</a>
 </div>
 <app-second-footer></app-second-footer>
