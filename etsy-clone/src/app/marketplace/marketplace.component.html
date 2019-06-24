@@ -1,0 +1,18 @@
+<app-nav-bar></app-nav-bar>
+<app-nav-bar-2></app-nav-bar-2>
+<hr>
+<h2>Marketplace</h2>
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let product of products" (click)="goToDetailPage(product)" class="panel panel-default">
+      <img  src={{product.image}}  alt="picture"><br>
+      <h4>{{product.title}}</h4>
+      <p>{{product.company}}</p>
+      <app-stars></app-stars><span id="nb">({{product.review}})</span>
+      <p id="price"> {{product.price}}</p>
+      <br><br>
+    </div>
+  </div>
+</div>
+<app-second-footer></app-second-footer>

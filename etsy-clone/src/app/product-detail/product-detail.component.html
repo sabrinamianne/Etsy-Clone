@@ -1,0 +1,17 @@
+
+<app-nav-bar></app-nav-bar>
+<app-nav-bar-2></app-nav-bar-2>
+<hr>
+<div class="container">
+  <a href={{productToDisplay.url}}>
+  <img  src={{productToDisplay.image}}  alt="picture"></a><br>
+  <h4>{{productToDisplay.title}}</h4>
+  <p>{{productToDisplay.company}}</p>
+  <app-stars></app-stars><span id="nb">(24,769)</span>
+  <p id="price"> {{productToDisplay.price}}</p>
+  <br><br>
+  <p>{{productToDisplay.description}}</p>
+</div>
+
+
+<app-second-footer></app-second-footer>
