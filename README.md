@@ -1,10 +1,50 @@
-# EtsyClone
+# Etsy Clone
+By Sabrina Mianne
+
+https://etsy-clone-5a30f.firebaseapp.com/
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+## Specifications
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+| Specs  |
+| ------------- |
+| A user can see all products |
+| A user can add a product.|
+| A user can update a product.|
+| A user can delete a product. |
+| Returns their age in Jupiter years.|
+| Returns their age in Jupiter years.|
+
+## Technologies Used
+
+* Angular
+* JavaScript
+* Typesript
+* Webpack
+* Bootstrap
+* Firebase
+
+## Set up
+
+# Clone this project:
+$ https://github.com/sabrinamianne/Etsy-Clone.git
+
+# Go into the directory
+$ cd Etsy-clone
+
+# Install dependecies
+$ npm install
+
+# Create a Firebase account
+
+# Install Firebase using npm and deploy
+$ npm install -g firebase-tools
+$ firebase login
+$ firebase open hosting:site
+
 
 ## Code scaffolding
 
@@ -25,3 +65,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+Copyright (c) 2019 **_Sabrina Mianne_ **
