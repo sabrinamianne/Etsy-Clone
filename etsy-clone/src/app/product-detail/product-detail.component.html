@@ -10,6 +10,9 @@
   <app-stars></app-stars><span id="nb">({{(productToDisplay | async)?.review}})</span>
   <p id="price"> {{(productToDisplay | async)?.price}}</p>
   <br><br>
-  <p>{{productToDisplay.description}}</p>
+  <p>{{(productToDisplay | async)?.description}}</p>
+</div>
+<div class="container">
+  <a href="https://etsy-clone-5a30f.firebaseapp.com/admin/marketplace">All Products</a>
 </div>
 <app-second-footer></app-second-footer>
