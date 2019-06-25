@@ -15,8 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | A user can add a product.|
 | A user can update a product.|
 | A user can delete a product. |
-| Returns their age in Jupiter years.|
-| Returns their age in Jupiter years.|
+
 
 ## Technologies Used
 
