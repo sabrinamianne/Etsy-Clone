@@ -49,12 +49,14 @@
             <label>Product reviews:</label>
             <br>
             <input #newReview>
-          </div>
-        <!-- <button (click)="submitForm(newTitle.value, newCompany.value, newDescription.value, newImage.value, newUrl.value, newPrice.value; newTitle.value=''; newCompany.value=''; newDescription.value='';newImage.value=''; newUrl.value=''; newPrice.value=''">Add</button> -->
+          </div><br>
+      <button class="btn btn-dark" (click)="submitForm(newTitle.value, newCompany.value, newDescription.value, newImage.value, newUrl.value, newPrice.value, newReview.value); newTitle.value=''; newCompany.value=''; newDescription.value=''; newDescription.value=''; newImage.value=''; newUrl.value=''; newPrice.value=''; newReview.value=''">Add</button>
     </div>
   </div>
 </div>
+
 <div class="container">
-  <a routerLink="marketplace" style="color: black;">Our Products</a>
-</div>
+  <a routerLink="marketplace" style="color: black; font-size: 30px;">Our Products</a>
+</div><br>
+
 <app-second-footer></app-second-footer>

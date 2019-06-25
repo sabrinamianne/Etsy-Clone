@@ -21,6 +21,7 @@ import { AdminComponent } from './admin/admin.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -44,7 +45,8 @@ export const firebaseConfig = {
     AdminComponent,
     WelcomeComponent,
     MarketplaceComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    EditProductComponent
   ],
   imports: [
    BrowserModule,

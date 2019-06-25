@@ -1,0 +1,32 @@
+<h4>Edit Product</h4>
+
+<label>New ProductTitle:</label>
+<input [(ngModel)]="selectedProduct.title">
+<br>
+
+<label>New Product Company:</label>
+<input [(ngModel)]="selectedProduct.company">
+<br>
+
+<label>New Product Description:</label>
+<input [(ngModel)]="selectedProduct.description">
+<br>
+
+<label>New Product Image:</label>
+<input [(ngModel)]="selectedProduct.image">
+<br>
+
+<label>New Product Url:</label>
+<input [(ngModel)]="selectedProduct.url">
+<br>
+
+<label>New Product Price:</label>
+<input [(ngModel)]="selectedProduct.price">
+<br>
+
+<label>New Product Price:</label>
+<input [(ngModel)]="selectedProduct.review">
+<br>
+
+<button class="btn btn-dark" (click)="beginUpdatingProduct(selectedProduct)">Update</button>
+<button class="btn btn-dark" (click)="beginDeletingProduct(selectedProduct)">Delete</button>
