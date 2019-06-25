@@ -32,7 +32,7 @@ export class ProductService {
                                   review: localUpdatedProduct.review});
  }
 
- deleteAlbum(localProductToDelete) {
+ deleteProduct(localProductToDelete) {
    var productEntryInFirebase = this.getProductById(localProductToDelete.$key);
    productEntryInFirebase.remove();
  }

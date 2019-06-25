@@ -4,6 +4,7 @@ import {Router} from '@angular/router';
 import {ProductService} from '../product.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
+
 @Component({
   selector: 'app-marketplace',
   templateUrl: './marketplace.component.html',

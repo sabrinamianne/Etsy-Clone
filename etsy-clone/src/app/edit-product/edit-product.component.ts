@@ -19,4 +19,9 @@ export class EditProductComponent implements OnInit {
     this.productService.updateProduct(productToUpdate);
   }
 
+  beginDeletingProduct(productToDelete) {
+  if (confirm("Are you sure you want to delete this product from the inventory?")) {
+    this.productService.deleteProduct(productToDelete);
+    }
+  }
 }
