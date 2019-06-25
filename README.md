@@ -45,6 +45,8 @@ $ npm install -g firebase-tools
 $ firebase login
 $ firebase open hosting:site
 
+## Admin
+Admin link is at the bottom of page
 
 ## Code scaffolding
 
