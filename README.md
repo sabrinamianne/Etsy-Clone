@@ -4,6 +4,8 @@ By Sabrina Mianne
 https://etsy-clone-5a30f.firebaseapp.com/
 
 
+![alt text](https://github.com/sabrinamianne/Etsy-Clone/blob/master/Screen%20Shot%202019-07-17%20at%203.46.40%20PM.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Specifications
